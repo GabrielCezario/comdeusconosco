@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+	
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../_css/cadastroCelula.css"/>
+	
+	</head>
+	
+	<body>
+	
+		<nav>
+				
+			 <ul>
+				
+				<span>Nome usuário, bem vindo!</span>
+				<li> <input type="image" src="../../img/1486395884-account_80606.png" width="30" height="30"/> 
+				
+					<ul>
+					
+						<li> <a href="#"> Informações pessoais </a> </li>
+						<li> <a href="#"> Organização </a> </li>
+						
+						<br>
+						<br>
+						
+						<li> <a href="login.html"> Sair </a> </li>
+					
+					</ul>
+				</li>
+					
+			</ul> 
+				
+		</nav>
+		
+		<div class="linhaH"></div>	
+		
+		<div id="painel">
+		
+			<ul>
+			
+				<li> <a href="painelCelula.html"> <button class="btnMenu">Celula</button> </a> </li>
+				<li> <a href="painelParticipantes.html"> <button class="btnMenu">Participantes</button> </a> </li>
+				<li> <a href="painelEvento.html"> <button class="btnMenu">Eventos</button> </a> </li>
+				<li> <a href="painelMinisterios.html"> <button class="btnMenu">Ministérios</button> </a> </li>
+				<li> <a href="painelNossaHistoria.html"> <button class="btnMenu">Nossa História</button></a> </li>
+				<li> <a href="painelNoticias.html"> <button class="btnMenu">Notícias</button></a> </li>
+			
+			</ul>
+		
+		</div>
+		
+		<main>
+		
+			<h1> Cadastro de Celula </h1>
+			
+			<br>
+			<br>
+		
+			<form action="#" method="GET">
+			
+				<fieldset>
+				
+					<legend> Informações </legend>
+					
+					<br>
+					
+					<label for="txtNomeCelula" class="lbl">Nome da célula</label>
+					<input type="text" id="txtNomeCelula" name="nomeCelula" class="txt"/>
+				
+					<p> <label for="txtSiglaCelula" class="lbl">Sigla da célula</label>
+					<input type="text" id="txtSiglaCelula" name="siglaCelula" class="txt"/>
+					
+					<br>
+					
+					<p> <label for="txtDescricaoCelula" class="lbl">Descrição</label>
+					<textarea id="txtDescricaoCelula" rows="5" cols="60" class="txt" > </textarea>
+					
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend> Ministeriados </legend>
+
+					<input type="text" id="txtPesquisa" name="pesquisa" placeholder="Pesquisar ministeriados"/>
+					<button class="btn">Pesquisar</button>
+					<button class="btn">Salvar</button>
+					
+					<br>
+					<br>
+					<hr>
+					
+					<div id="tabela">
+						<table>
+					
+							<thead>
+								<tr>
+								
+									<td class="colunaAdmTitle"> </td>
+									<td class="colunaNomeTitle">Nome</td>
+								
+								</tr>
+							</thead>
+						
+							<tbody>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 1</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 2</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 3</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 4</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 5</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 6</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 7</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 8</td>
+								</tr>
+							</tbody>
+					
+						</table>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset id="field2">
+				
+					<legend> Participantes gerais </legend>
+					
+					<input type="text" id="txtPesquisa" name="pesquisa" placeholder="Pesquisar participantes"/>
+					<button class="btn">Pesquisar</button>
+					<button class="btn">Adicionar na celula</button>
+					
+					<div id="tabela2">
+						<table>
+					
+							<thead>
+								<tr>
+								
+									<td class="colunaAdmTitle"> </td>
+									<td class="colunaNomeTitle">Nome</td>
+								
+								</tr>
+							</thead>
+						
+							<tbody>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 1</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 2</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 3</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 4</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 5</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 6</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 7</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 8</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 7</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 8</td>
+								</tr>
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 7</td>
+								</tr>
+								
+								<tr>
+									<td class="colunaAdm"> <input type="checkbox"/> </td>
+									<td class="colunaNome">Nome 8</td>
+								</tr>
+							</tbody>
+					
+						</table>
+					</div>
+				
+				</fieldset>
+				
+				<button id="btnCadastrar" type="submit">Cadastrar</button>
+			
+			</form>
+			
+		</main>
+	
+	</body>
+
+</html>

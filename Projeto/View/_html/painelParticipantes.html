@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+	
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../_css/painelParticipantes.css"/>
+		
+		<title> Painel de Participantes </title>
+	
+	</head>
+	
+	<body>
+	
+		<nav>
+				
+			 <ul>
+				
+				<span>Nome usuário, bem vindo!</span>
+				<li> <input type="image" src="../../img/1486395884-account_80606.png" width="30" height="30"/> 
+				
+					<ul>
+					
+						<li> <a href="#"> Editar informações </a> </li>
+						<li> <a href="#"> Sair </a> </li>
+					
+					</ul>
+				</li>
+					
+			</ul> 
+				
+		</nav>
+		
+		<div class="linhaH"></div>	
+		
+		<div id="painel">
+		
+			<ul>
+			
+				<li> <a href="painelCelula.html"> <button class="btnMenu">Celula</button> </a> </li>
+				<li> <a href="painelParticipantes.html"> <button class="btnMenu">Participantes</button> </a> </li>
+				<li> <a href="painelEvento.html"> <button class="btnMenu">Eventos</button> </a> </li>
+				<li> <a href="painelMinisterios.html"> <button class="btnMenu">Ministérios</button> </a> </li>
+				<li> <a href="painelNossaHistoria.html"> <button class="btnMenu">Nossa História</button></a> </li>
+				<li> <a href="painelNoticias.html"> <button class="btnMenu">Notícias</button></a> </li>
+			
+			</ul>
+		
+		</div>
+		
+		<main>
+		
+			<div id="divPesquisa">
+			
+				<input type="text" id="PesquisaNomeParticipantes" name="txtPesquisaNomeParticipantes" placeholder="Pesquisar Participantes"/>
+				<button class="btn" name="btnCadastrarParticipantes">Pesquisar</button>
+			
+			</div>
+			
+			<div id="tabela">
+				<table>
+			
+					<thead>
+						<tr>
+						
+							<td class="colunaCodTitle">Administrador</td>
+							<td class="colunaNomeTitle">Nome</td>
+						
+						</tr>
+					</thead>
+				
+					<tbody>
+					
+						<tr>
+							<td class="colunaCod"> <input type="checkbox"/> </td>
+							<td class="colunaNome">Participante 1</td>
+							<td class="colunaBtn"> <a href="visualizarParticipantes.html"> <button class="btn btnTabela visualizar" name="btnVisualizarParticipantes">Visualizar</button> </a> </td>
+							<td class="colunaBtn"> <a href="visualizarParticipantes.html"> <button class="btn btnTabela alterar" name="btnAlterarParticipantes">Alterar</button> </a> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela deletar" name="btnDeletarParticipantes">Deletar</button> </td>
+						</tr>
+						
+						<tr>
+							<td class="colunaCod"> <input type="checkbox"/> </td>
+							<td class="colunaNome">Participante 2</td>
+							<td class="colunaBtn"> <button class="btn btnTabela visualizar" name="btnVisualizarParticipantes">Visualizar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela alterar" name="btnAlterarParticipantes">Alterar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela deletar" name="btnDeletarParticipantes">Deletar</button> </td>
+						</tr>
+					
+					</tbody>
+			
+				</table>
+			</div>
+		
+		</main>
+	
+	</body>
+
+</html>

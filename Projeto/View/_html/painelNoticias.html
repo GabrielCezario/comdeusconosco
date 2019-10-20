@@ -1,0 +1,104 @@
+<!DCOTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+	
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../_css/painelNoticias.css"/>
+		
+		<title>Painel de Noticias</title>
+	
+	</head>
+	
+	<body>
+	
+		<nav>
+				
+			 <ul>
+				
+				<span>Nome usuário, bem vindo!</span>
+				<li> <input type="image" src="../../img/1486395884-account_80606.png" width="30" height="30"/> 
+				
+					<ul>
+					
+						<li> <a href="#"> Editar informações </a> </li>
+						<li> <a href="#"> Sair </a> </li>
+					
+					</ul>
+				</li>
+					
+			</ul> 
+				
+		</nav>
+		
+		<div class="linhaH"></div>	
+		
+		<div id="painel">
+		
+			<ul>
+			
+				<li> <a href="painelCelula.html"> <button class="btnMenu">Celula</button> </a> </li>
+				<li> <a href="painelParticipantes.html"> <button class="btnMenu">Participantes</button> </a> </li>
+				<li> <a href="painelEvento.html"> <button class="btnMenu">Eventos</button> </a> </li>
+				<li> <a href="painelMinisterios.html"> <button class="btnMenu">Ministérios</button> </a> </li>
+				<li> <a href="painelNossaHistoria.html"> <button class="btnMenu">Nossa História</button></a> </li>
+				<li> <a href="painelNoticias.html"> <button class="btnMenu">Notícias</button></a> </li>
+			
+			</ul>
+		
+		</div>
+		
+		<main>
+		
+			<div id="divPesquisa">
+			
+				<input type="text" id="PesquisaNomeNoticias" name="txtPesquisaNomeNoticias" placeholder="Pesquisar Noticias"/>
+				<button class="btn" name="btnCadastrarNoticias">Pesquisar</button>
+				<a href="cadastroNoticia.html"> <button class="btn" name="btnCadastrarNoticias">Cadastrar noticia</button> </a>
+			
+			</div>
+			
+			<div id="tabela">
+				<table>
+			
+					<thead>
+						<tr>
+						
+							<td class="colunaNomeTitle">Nome</td>
+							<td class="colunaDataTitle">Data</td>
+							<td class="colunaDescTitle">Descrição</td>
+						
+						</tr>
+					</thead>
+				
+					<tbody>
+					
+						<tr>
+							<td class="colunaNome">Notícia 1</td>
+							<td class="colunaData">00/00/0000</td>
+							<td class="colunaDesc">Descrição 1</td>
+							<td class="colunaBtn"> <button class="btn btnTabela visualizar" name="btnVisualizarNoticias">Visualizar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela alterar" name="btnAlterarNoticias">Alterar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela deletar" name="btnDeletarNoticias">Deletar</button> </td>
+						</tr>
+						
+						<tr>
+							<td class="colunaNome">Notícia 2</td>
+							<td class="colunaData">00/00/0000</td>
+							<td class="colunaDesc">Descrição 2</td>
+							<td class="colunaBtn"> <button class="btn btnTabela visualizar" name="btnVisualizarNoticias">Visualizar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela alterar" name="btnAlterarNoticias">Alterar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela deletar" name="btnDeletarNoticias">Deletar</button> </td>
+						</tr>
+					
+					</tbody>
+			
+				</table>
+			</div>
+		
+		</main>
+	
+	</body>
+
+</html>

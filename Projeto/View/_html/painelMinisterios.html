@@ -1,0 +1,104 @@
+<!DCOTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+	
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../_css/painelMinisterios.css"/>
+		
+		<title>Painel de Ministerios</title>
+	
+	</head>
+	
+	<body>
+	
+		<nav>
+				
+			 <ul>
+				
+				<span>Nome usuário, bem vindo!</span>
+				<li> <input type="image" src="../../img/1486395884-account_80606.png" width="30" height="30"/> 
+				
+					<ul>
+					
+						<li> <a href="#"> Editar informações </a> </li>
+						<li> <a href="#"> Sair </a> </li>
+					
+					</ul>
+				</li>
+					
+			</ul> 
+				
+		</nav>
+		
+		<div class="linhaH"></div>	
+		
+		<div id="painel">
+		
+			<ul>
+			
+				<li> <a href="painelCelula.html"> <button class="btnMenu">Celula</button> </a> </li>
+				<li> <a href="painelParticipantes.html"> <button class="btnMenu">Participantes</button> </a> </li>
+				<li> <a href="painelEvento.html"> <button class="btnMenu">Eventos</button> </a> </li>
+				<li> <a href="painelMinisterios.html"> <button class="btnMenu">Ministérios</button> </a> </li>
+				<li> <a href="painelNossaHistoria.html"> <button class="btnMenu">Nossa História</button></a> </li>
+				<li> <a href="painelNoticias.html"> <button class="btnMenu">Notícias</button></a> </li>
+			
+			</ul>
+		
+		</div>
+		
+		<main>
+		
+			<div id="divPesquisa">
+			
+				<input type="text" id="PesquisaNomeMinisterios" name="txtPesquisaNomeMinisterios" placeholder="Pesquisar Ministerios"/>
+				<button class="btn" name="btnCadastrarMinisterios">Pesquisar</button>
+				<a href="cadastroMinisterio.html"> <button class="btn" name="btnCadastrarMinisterios">Cadastrar ministerio</button> </a>
+			
+			</div>
+			
+			<div id="tabela">
+				<table>
+			
+					<thead>
+						<tr>
+						
+							<td class="colunaCodTitle">Sigla</td>
+							<td class="colunaNomeTitle">Nome</td>
+							<td class="colunaDescTitle">Descrição</td>
+						
+						</tr>
+					</thead>
+				
+					<tbody>
+					
+						<tr>
+							<td class="colunaCod">MINS1</td>
+							<td class="colunaNome">Ministerios 1</td>
+							<td class="colunaDesc">Descrição 1</td>
+							<td class="colunaBtn"> <button class="btn btnTabela visualizar" name="btnVisualizarMinisterios">Visualizar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela alterar" name="btnAlterarMinisterios">Alterar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela deletar" name="btnDeletarMinisterios">Deletar</button> </td>
+						</tr>
+						
+						<tr>
+							<td class="colunaCod">MINS1</td>
+							<td class="colunaNome">Ministerios 2</td>
+							<td class="colunaDesc">Descrição 2</td>
+							<td class="colunaBtn"> <button class="btn btnTabela visualizar" name="btnVisualizarMinisterios">Visualizar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela alterar" name="btnAlterarMinisterios">Alterar</button> </td>
+							<td class="colunaBtn"> <button class="btn btnTabela deletar" name="btnDeletarMinisterios">Deletar</button> </td>
+						</tr>
+					
+					</tbody>
+			
+				</table>
+			</div>
+		
+		</main>
+	
+	</body>
+
+</html>

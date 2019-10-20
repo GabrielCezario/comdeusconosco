@@ -1,0 +1,93 @@
+body{
+	background-color: #45BCF6;
+	display:table:
+}
+
+nav img{
+	width: 100px;
+	height: 50px;
+}
+
+nav a{
+	color: #000000;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: white;
+}
+
+ul li{
+	list-style-type:none;
+	display:inline;
+	padding-left: 25px;
+}
+
+li:first-child{
+	padding-right: 550px;
+}
+
+#linhaH{
+	border-bottom: 2px solid black;
+}
+
+h1{
+	text-align: center;
+}
+
+p#textEvento{
+	text-align: jusfity;
+	text-indent: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.id1{
+	float:left;
+	width: 420px;
+	margin-left: 25px;
+}
+
+.id2{
+	float: left;
+	width: 420px;
+}
+
+.id3{
+	float: left;
+	width: 420px;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+a h3:hover{
+	text-decoration: underline;
+}
+
+figure.foto-legenda img{
+	border: 5px solid white;
+	width: 350px;
+	height: 250px;
+	border-radius: 10px;
+	
+	overflow: hidden;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+figure.foto-legenda img:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure.foto-legenda figcaption{
+	text-align: justify;
+	text-indent: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
